@@ -1,5 +1,6 @@
-class LRUCache {
+// https://leetcode.com/problems/lru-cache/description/
 
+class LRUCache {
     private class DEListNode{
         DEListNode prev,next;
         int key,val;
